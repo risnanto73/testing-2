@@ -34,5 +34,14 @@ module.exports = {
       },
     },
   },
-  plugins: [require("flowbite/plugin")],
+  plugins: [
+    require("flowbite/plugin"),
+    
+  ],
+  tailwindcss:{
+
+  },
+  purge: {
+    content: ["./src/**/*.{html,js}", "./node_modules/flowbite/**/*.{html,js}"],
+  },
 };

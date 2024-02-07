@@ -1,4 +1,7 @@
 {
+  "name": "flowbite",
+  "version": "1.0.0",
+  "description": "Flowbite is a free and open-source Tailwind CSS components and layout kit.",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
   },
